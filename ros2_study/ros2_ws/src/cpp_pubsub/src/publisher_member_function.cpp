@@ -17,13 +17,14 @@
 #include <memory>
 #include <string>
 
-#include "rclcpp/rclcpp.hpp"
+#include "rclcpp/rclcpp.hpp"  //C++客户端库
 #include "std_msgs/msg/string.hpp"
 
 using namespace std::chrono_literals;
 
 /* This example creates a subclass of Node and uses std::bind() to register a
  * member function as a callback from the timer. */
+/* 本示例创建了一个 Node 的子类，并使用 std::bind() 将成员函数注册为定时器的回调函数。 */
 
 class MinimalPublisher : public rclcpp::Node
 {
