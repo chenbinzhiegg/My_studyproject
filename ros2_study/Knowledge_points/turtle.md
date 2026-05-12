@@ -109,3 +109,26 @@ ros2 topic info /turtle1/cmd_vel
 这些命令覆盖了 `turtlesim` 官方教程里的所有操作，从基础启动到话题、服务、参数都包含了，你可以直接复制到终端运行。
 
 需要我再补充一份这些命令的**常见报错排查清单**吗？这样你遇到问题可以快速定位原因。
+
+### 使用rqt
+
+# 放大倍数看
+export QT_SCALE_FACTOR=1.5 && rqt 
+
+## 卡死的时候
+
+# 强制关闭 rqt
+pkill -9 rqt
+
+# 删除 rqt 损坏的布局配置
+rm -f ~/.config/rqt_gui.ini
+rm -rf ~/.config/ros.org/rqt_gui.ini
+
+# 清理 rqt 缓存
+rm -rf ~/.cache/rqt_*
+
+# 清理 ROS 插件缓存
+rm -rf ~/.ros/plugin_cache
+
+# 重启 rqt
+rqt

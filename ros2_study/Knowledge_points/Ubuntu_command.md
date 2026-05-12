@@ -59,8 +59,8 @@ vim file.txt   # 功能强大的编辑器，:wq 保存退出，:q! 强制退出
 sudo apt update && sudo apt upgrade -y
 
 # 安装/卸载软件
-sudo apt install package_name
-sudo apt remove package_name
+sudo apt install package_name   #安装
+sudo apt remove package_name    #卸载
 sudo apt autoremove  # 清理无用依赖
 
 # 权限管理
