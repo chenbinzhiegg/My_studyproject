@@ -1,0 +1,36 @@
+[0.153s] Invoking command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_action_client -- -j32 -l32
+[2.630s] [35m[1mConsolidate compiler generated dependencies of target action_client_member_functions[0m
+[2.631s] [35m[1mConsolidate compiler generated dependencies of target action_client_not_composable_with_cancel[0m
+[2.633s] [35m[1mConsolidate compiler generated dependencies of target action_client_not_composable_with_feedback[0m
+[2.634s] [35m[1mConsolidate compiler generated dependencies of target action_client_not_composable[0m
+[2.635s] [ 25%] Built target action_client_not_composable_with_feedback
+[2.636s] [ 50%] Built target action_client_member_functions
+[2.637s] [ 75%] Built target action_client_not_composable
+[2.638s] [100%] Built target action_client_not_composable_with_cancel
+[2.704s] Invoked command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_action_client -- -j32 -l32
+[2.704s] Invoking command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_action_client
+[2.790s] -- Install configuration: ""
+[2.790s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[2.790s] -- Set runtime path of "/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions" to ""
+[2.790s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[2.790s] -- Set runtime path of "/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable" to ""
+[2.790s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[2.790s] -- Set runtime path of "/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel" to ""
+[2.790s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[2.791s] -- Set runtime path of "/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback" to ""
+[2.792s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[2.792s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[2.792s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[2.792s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[2.792s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[2.793s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[2.793s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[2.793s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[2.793s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[2.793s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[2.796s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[2.803s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[2.803s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[2.804s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[2.804s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[3.061s] Invoked command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_action_client

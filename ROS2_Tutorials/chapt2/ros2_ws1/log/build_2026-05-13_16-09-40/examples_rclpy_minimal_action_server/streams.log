@@ -1,0 +1,25 @@
+[3.598s] Invoking command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/src/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_minimal_action_server/build install --record /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data
+[3.832s] running egg_info
+[3.833s] writing ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[3.834s] writing dependency_links to ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[3.835s] writing entry points to ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[3.835s] writing requirements to ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[3.836s] writing top-level names to ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[3.836s] reading manifest file '../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[3.838s] writing manifest file '../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[3.839s] running build
+[3.839s] running build_py
+[3.839s] running install
+[3.840s] running install_lib
+[3.841s] running install_data
+[3.842s] running install_egg_info
+[3.844s] removing '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.5-py3.10.egg-info' (and everything under it)
+[3.845s] Copying ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.5-py3.10.egg-info
+[3.848s] running install_scripts
+[3.874s] Installing server script to /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.874s] Installing server_defer script to /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.875s] Installing server_not_composable script to /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.875s] Installing server_queue_goals script to /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.875s] Installing server_single_goal script to /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.876s] writing list of installed files to '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_minimal_action_server/install.log'
+[3.961s] Invoked command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/src/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_minimal_action_server/build install --record /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data

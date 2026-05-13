@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d2dedfe14a02537717f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "examples_rclcpp_minimal_publisher",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "examples_rclcpp_minimal_publisher_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples_rclcpp_minimal_publisher_uninstall-2c9e0b7f68e27d321cb0.json",
+					"name" : "examples_rclcpp_minimal_publisher_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_lambda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_lambda-fec354bdfe746aa5e0ed.json",
+					"name" : "publisher_lambda",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_member_function::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_member_function-ca501935dd6106311a0b.json",
+					"name" : "publisher_member_function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_member_function_with_type_adapter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_member_function_with_type_adapter-8f44d3bda616d1987eb6.json",
+					"name" : "publisher_member_function_with_type_adapter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_member_function_with_unique_network_flow_endpoints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_member_function_with_unique_network_flow_endpoints-8f4779d9dce47e4e1416.json",
+					"name" : "publisher_member_function_with_unique_network_flow_endpoints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_not_composable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_not_composable-a85bb5a11c76afdf52d4.json",
+					"name" : "publisher_not_composable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_wait_for_all_acked::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_wait_for_all_acked-826e3cd868dd1eee93cb.json",
+					"name" : "publisher_wait_for_all_acked",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-280a91bf0fc45a6c41ba.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_publisher",
+		"source" : "/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/src/src/examples/rclcpp/topics/minimal_publisher"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

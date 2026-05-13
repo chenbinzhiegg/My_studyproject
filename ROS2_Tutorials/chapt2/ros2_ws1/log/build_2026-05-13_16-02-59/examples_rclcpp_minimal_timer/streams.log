@@ -1,0 +1,76 @@
+[0.115s] Invoking command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/src/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer
+[1.942s] -- The C compiler identification is GNU 11.4.0
+[1.943s] -- The CXX compiler identification is GNU 11.4.0
+[1.943s] -- Detecting C compiler ABI info
+[1.943s] -- Detecting C compiler ABI info - done
+[1.943s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.943s] -- Detecting C compile features
+[1.943s] -- Detecting C compile features - done
+[1.943s] -- Detecting CXX compiler ABI info
+[1.943s] -- Detecting CXX compiler ABI info - done
+[1.943s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.943s] -- Detecting CXX compile features
+[1.943s] -- Detecting CXX compile features - done
+[1.943s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.943s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.943s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.944s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.944s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.944s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.944s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.944s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.944s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.944s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.659s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.589s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.046s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.060s] -- Looking for pthread.h
+[5.234s] -- Looking for pthread.h - found
+[5.234s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.397s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.398s] -- Found Threads: TRUE  
+[5.465s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.547s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.549s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.551s] -- Configured cppcheck include dirs: 
+[5.551s] -- Configured cppcheck exclude dirs and/or files: 
+[5.551s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.551s] -- Configured cpplint exclude dirs and/or files: 
+[5.553s] -- Added test 'lint_cmake' to check CMake code style
+[5.554s] -- Added test 'uncrustify' to check C / C++ code style
+[5.554s] -- Configured uncrustify additional arguments: 
+[5.556s] -- Added test 'xmllint' to check XML markup files
+[5.558s] -- Configuring done
+[5.572s] -- Generating done
+[5.576s] -- Build files have been written to: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_timer
+[5.596s] Invoked command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/src/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer
+[5.599s] Invoking command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_timer -- -j32 -l32
+[5.646s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[5.647s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[282.912s] [ 75%] [32m[1mLinking CXX executable timer_member_function[0m
+[284.166s] [ 75%] Built target timer_member_function
+[285.488s] [100%] [32m[1mLinking CXX executable timer_lambda[0m
+[286.010s] [100%] Built target timer_lambda
+[286.579s] Invoked command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_timer -- -j32 -l32
+[287.644s] Invoking command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_timer
+[287.760s] -- Install configuration: ""
+[287.761s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[287.761s] -- Set runtime path of "/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda" to ""
+[287.761s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[287.761s] -- Set runtime path of "/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function" to ""
+[287.761s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[287.762s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[287.765s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[287.770s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[287.770s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[287.771s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[287.772s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[287.773s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[287.773s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[287.775s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[287.776s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[287.779s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[287.781s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[287.781s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[287.784s] -- Installing: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[287.797s] Invoked command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclcpp_minimal_timer

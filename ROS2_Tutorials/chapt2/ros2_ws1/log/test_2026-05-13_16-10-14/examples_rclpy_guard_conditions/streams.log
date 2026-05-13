@@ -1,0 +1,22 @@
+[0.504s] Invoking command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/src/src/examples/rclpy/guard_conditions': AMENT_PREFIX_PATH=/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.232s] [1m============================= test session starts ==============================[0m
+[1.232s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.237s] cachedir: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_guard_conditions/.pytest_cache
+[1.237s] rootdir: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/src/src/examples/rclpy, configfile: pytest.ini
+[1.237s] plugins: ament-xmllint-0.12.15, ament-lint-0.12.15, launch-testing-1.0.14, ament-flake8-0.12.15, ament-pep257-0.12.15, ament-copyright-0.12.15, launch-testing-ros-0.19.13, cov-3.0.0, colcon-core-0.20.1
+[1.349s] [1mcollecting ... [0m[1m
+[1.350s] collected 3 items                                                              [0m
+[1.350s] 
+[1.519s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[1.711s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[1.732s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[1.733s] 
+[1.733s] [33m=============================== warnings summary ===============================[0m
+[1.733s] guard_conditions/test/test_flake8.py::test_flake8
+[1.733s] guard_conditions/test/test_flake8.py::test_flake8
+[1.734s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.734s] 
+[1.734s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.734s] - generated xml file: /home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_guard_conditions/pytest.xml -
+[1.734s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.50s[0m[33m =========================[0m
+[3.042s] Invoked command in '/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/src/src/examples/rclpy/guard_conditions' returned '0': AMENT_PREFIX_PATH=/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/chenzhibin/My_studyproject/ROS2_Tutorials/chapt2/ros2_ws1/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
