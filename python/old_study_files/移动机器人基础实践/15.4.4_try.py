@@ -9,12 +9,14 @@
 # 如果没有异常发生时执行的代码块  
 #  finally:
 
-
-try:
-      data=input(  "请输入数据："  )  
+while True:
+    try:
+      data=input(  "请输入数据："  )
+      data=int(data)  
       sum=2+data  
-      print(  "结果是："  ,  sum)  
-except   TypeError:  
+      print(  "结果是："  ,  sum)
+      break  
+    except   ValueError:  
       print(  "您输入的数据不符合指定类型"  )
 
 
@@ -26,5 +28,5 @@ try:
     print("结果是：", sum_result)  
 except ValueError:  # 捕获“值错误”（输入无法转为数字时触发）
     print("您输入的不是有效数字，请输入整数或小数")
-except TypeError:   # 保留类型错误捕获（防御性处理）
+except TypeError:   # 保留类型错误捕获（防御性处理）(数据类型不对，类型不匹配：你让两种不能一起运算 / 转换的数据类型做操作，Python 无法执行，抛出该错误。)
     print("您输入的数据不符合指定类型")
