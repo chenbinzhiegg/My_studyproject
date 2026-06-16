@@ -1,6 +1,6 @@
 band = 'nike'
 print("Is band == 'nike' ? I predict True .")
-print(band == 'nike')
+print(band == 'nike')   #bool表达式，返回True或False(bool值)
 
 band = 'addidas'
 print("\nIs band == 'nike' ? I predict True .")

@@ -1,4 +1,4 @@
-current_users = ["hong","qi","lan",'chen','zhi','bin']
+current_users = ["huang","la","lin",'chen','zhi','bin']
 new_users = ["huang","Hong",'chen']
 
 for user in new_users :

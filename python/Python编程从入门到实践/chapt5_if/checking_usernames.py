@@ -8,3 +8,5 @@ for new_user in new_users:
         print(f"Sorry {new_user}, that name is taken.")
     else:
         print(f"Great, {new_user} is still available.")
+
+#lower()方法临时将字符串转换为小写字母，这样就可以进行不区分大小写的比较。

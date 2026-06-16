@@ -18,12 +18,13 @@ else:
 correct_password =111
 print(correct_password)
 verified = False
-while not verified:
+while not verified: #循环直到验证成功
     # 获取用户输入的密码
     password = int(input("请输入密码："))
     # 检查密码是否正确
     if password == correct_password:
         print("密码正确，验证通过！")
-        break  # 跳出循环
+        verified = True  # 设置验证成功，退出循环
+        #break  # 跳出循环
     else:
         print("密码错误，请重试。")
