@@ -1,5 +1,5 @@
 #切片（slice）
-lists = ['hong','qi','lan','chen','zhi','bin']
+lists = ['chen','dan','dan','chen','zhi','bin']
 print(lists)
 
 message = f"\nThe first three items is {lists[0:3]}"#在索引的第二个元素前停止

@@ -1,4 +1,4 @@
-name = " Zhibin Chen "
+name = " Zhibin Chen "  #字符串两边有空格
 print(name)
 
 name = name.lstrip()

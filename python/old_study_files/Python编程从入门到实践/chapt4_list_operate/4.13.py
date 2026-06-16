@@ -4,7 +4,7 @@ print("Original types is :")
 for type in types :
     print(type)
 
- #types[0] = 'niu'
+#types[0] = 'niu'
 #无法尝试修改列表中的值
 
 #重新定义整个元组
