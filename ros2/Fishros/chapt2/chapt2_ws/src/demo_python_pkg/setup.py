@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'python_node=demo_python_pkg.python_node:main'
+            'python_node=demo_python_pkg.python_node:main',
+            'learn_thread=demo_python_pkg.learn_thread:main',
         ],
     },
 )
