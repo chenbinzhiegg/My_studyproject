@@ -13,18 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='chenzhibin',
-    maintainer_email='chenzhibin2099@hotmail.com',
+    maintainer='mzebra',
+    maintainer_email='mzebra@foxmail.com',
     description='TODO: Package description',
     license='Apache-2.0',
-    extras_require={
-        'test': [
-            'pytest',
-        ],
-    },
+    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'sys_status_pub=status_publisher.sys_status_pub:main',
+            'sys_status_pub=status_publisher.sys_status_pub:main'
         ],
     },
 )

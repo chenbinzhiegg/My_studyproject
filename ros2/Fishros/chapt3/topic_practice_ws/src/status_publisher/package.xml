@@ -4,7 +4,7 @@
   <name>status_publisher</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="chenzhibin2099@hotmail.com">chenzhibin</maintainer>
+  <maintainer email="mzebra@foxmail.com">mzebra</maintainer>
   <license>Apache-2.0</license>
 
   <depend>rclpy</depend>

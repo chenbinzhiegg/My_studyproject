@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(status_interfaces)
+project(status_display)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -7,13 +7,21 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
-find_package(builtin_interfaces REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(status_interfaces REQUIRED)
 
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/SystemStatus.msg"
-  DEPENDENCIES builtin_interfaces
-)
+find_package(Qt5 REQUIRED COMPONENTS Widgets)
+
+add_executable(hello_qt src/hello_qt.cpp)
+target_link_libraries(hello_qt Qt5::Widgets)
+
+add_executable(sys_status_display src/sys_status_display.cpp)
+target_link_libraries(sys_status_display Qt5::Widgets) # 对于非ROS功能包使用Cmake原生指令进行链接库
+ament_target_dependencies(sys_status_display rclcpp status_interfaces)
+
+
+install(TARGETS hello_qt sys_status_display
+  DESTINATION lib/${PROJECT_NAME})
 
 
 if(BUILD_TESTING)
