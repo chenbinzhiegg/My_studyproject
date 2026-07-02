@@ -33,7 +33,7 @@ class FaceDetectorionNode(Node):
             if parameter.name == 'face_locations_upsample_times':
                 self.upsample_times = parameter.value
             if parameter.name == 'face_locations_model':
-                self.mode = parameter.value
+                self.model = parameter.value
         return SetParametersResult(successful=True)
     
 
