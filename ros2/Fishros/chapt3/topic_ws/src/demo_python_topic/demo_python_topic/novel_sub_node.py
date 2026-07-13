@@ -8,17 +8,20 @@ import time
 import espeakng
 
 
-class NovelSubNode(Node):
+class NovelSubNode(Node):   #继承Node
     def __init__(self, node_name):
         super().__init__(node_name)
         self.novels_queue_ = Queue()
+
+        #创建订阅者
         self.novel_subscriber_ = self.create_subscription(
             String, 'novel', self.novel_callback, 10)
+        
         self.speech_thread_ = threading.Thread(target=self.speak_thread)    #创建线程
         self.speech_thread_.start() #线程启动
 
-    def novel_callback(self, msg):
-        self.novels_queue_.put(msg.data)
+    def novel_callback(self, msg):  #回调函数：有且仅有一个入参：收到的消息对象
+        self.novels_queue_.put(msg.data)    #.data 是这条消息内部存真实数据的成员字段。
 
     def speak_thread(self):
         speaker = espeakng.Speaker()
@@ -34,7 +37,7 @@ class NovelSubNode(Node):
 
 
 def main(args=None):
-    rclpy.init(args=args)
+    rclpy.init(args=args)   #args = 你运行节点时，命令行后面加的配置指令；
     node = NovelSubNode("novel_read")
     rclpy.spin(node)
     rclpy.shutdown()

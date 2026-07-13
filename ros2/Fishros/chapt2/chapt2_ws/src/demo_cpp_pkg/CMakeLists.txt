@@ -27,7 +27,7 @@ add_executable(learn_thread src/learn_thread.cpp)
 
 #target_include_directories(cpp_node PUBLIC ${rclcpp_INCLUDE_DIRS})
 #target_link_libraries(cpp_node ${rclcpp_LIBRARIES})
-ament_target_dependencies(cpp_node rclcpp)
+ament_target_dependencies(cpp_node rclcpp)  #添加依赖
 ament_target_dependencies(person_node rclcpp)
 
 

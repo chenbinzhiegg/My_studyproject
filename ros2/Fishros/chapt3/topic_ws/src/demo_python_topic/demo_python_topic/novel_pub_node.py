@@ -8,8 +8,10 @@ class NovelPubNode(Node):
     def __init__(self, node_name):
         super().__init__(node_name)
         self.novels_queue_ = Queue() # 创建队列，存放小说
+
         # 创建话题发布者，发布小说
         self.novel_publisher_ = self.create_publisher(String, 'novel', 10)  #创建发布器
+        
         self.timer_ = self.create_timer(5, self.timer_callback) # 创建定时器
 
     def download_novel(self, url):

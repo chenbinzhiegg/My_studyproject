@@ -4,10 +4,11 @@
 // 使用时间单位的字面量，可以在代码中使用 s 和 ms 表示时间
 using namespace std::chrono_literals;
 
-class TurtleCircle : public rclcpp::Node
+class TurtleCircle : public rclcpp::Node  //公共继承
 {
 private:
   rclcpp::TimerBase::SharedPtr timer_; // 定时器智能指针
+  
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_; // 发布者智能指针
 
 public:

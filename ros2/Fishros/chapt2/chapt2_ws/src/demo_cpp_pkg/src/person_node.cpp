@@ -1,6 +1,6 @@
 # include "rclcpp/rclcpp.hpp"
 
-class PersonNode : public rclcpp::Node 
+class PersonNode : public rclcpp::Node //公共继承
 {
 private:
     std::string name_;

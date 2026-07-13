@@ -29,3 +29,4 @@ setup(
         ],
     },
 )
+#要在'console_scripts'注册节点

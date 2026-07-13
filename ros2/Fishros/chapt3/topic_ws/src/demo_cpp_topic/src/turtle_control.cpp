@@ -25,7 +25,7 @@ private:
     // 2.计算距离目标的距离，与当前海龟朝向的角度差
     double distance =
         std::sqrt((target_x_ - current_x) * (target_x_ - current_x) +
-                  (target_y_ - current_y) * (target_y_ - current_y));
+                  (target_y_ - current_y) * (target_y_ - current_y));   //sqrt:开平方
     double angle =
         std::atan2(target_y_ - current_y, target_x_ - current_x) - pose->theta;
 
@@ -45,13 +45,16 @@ private:
     if (message.linear.x > max_speed_) {
        message.linear.x = max_speed_;
     }
+
     velocity_publisher_->publish(message);
   }
 
 
 private:
+    //定义智能指针变量
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr pose_subscription_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr velocity_publisher_;
+    
     double target_x_{1.0};  // 目标位置X,设置默认值1.0
     double target_y_{1.0};  // 目标位置Y,设置默认值1.0
     double k_{1.0};         // 比例系数，控制输出=误差*比例系数
