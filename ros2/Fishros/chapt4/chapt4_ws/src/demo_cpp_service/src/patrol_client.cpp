@@ -12,7 +12,7 @@
 // 使用时间单位的字面量，可以在代码中使用 s 和 ms 表示时间
 using namespace std::chrono_literals;
 using Patrol = chapt4_interfaces::srv::Patrol;
-using SetP = rcl_interfaces::srv::SetParameters;
+using SetP = rcl_interfaces::srv::SetParameters;  
 
 class PatrolClient : public rclcpp::Node
 {
