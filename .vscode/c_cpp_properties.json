@@ -1,16 +1,43 @@
 {
     "configurations": [
         {
-            "name": "Linux",
-            "includePath": [
-                "${workspaceFolder}/**",
-                "/opt/ros/humble/include/**"
-            ],
+            "name": "Win32",
             "defines": [],
-            "compilerPath": "/usr/bin/gcc",
+            "compilerPath": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
-            "intelliSenseMode": "linux-gcc-x64"
+            "intelliSenseMode": "${default}",
+            "compilerPathInCppPropertiesJson": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe",
+            "mergeConfigurations": false,
+            "recursiveIncludes": {},
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "C:/mingw64/include"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "d:/github_repository/My_studyproject/**",
+                "/opt/ros/humble/include/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "mergeConfigurations": false,
+            "recursiveIncludes": {},
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "compilerPath": "usr/bin/gcc",
+            "compilerPathInCppPropertiesJson": "usr/bin/gcc"
         }
     ],
     "version": 4
